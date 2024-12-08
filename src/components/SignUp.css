@@ -1,0 +1,157 @@
+/* General Body Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #25cbc3;
+    color: #083d42;
+}
+
+/* Sign-Up Container */
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* Logo Section */
+.logo {
+    flex: 1;
+    text-align: center;
+    padding-right: 40px;
+}
+
+.logo-image {
+    width: 100%; 
+    max-width: 250px; /* Restrict maximum size for better responsiveness */
+}
+
+/* Sign-Up Form Card */
+.signup-form {
+    background-color: #a5e3e4;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+}
+
+.signup-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #083d42;
+    text-align: center;
+}
+
+/* Input Fields */
+.signup-form input {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+    border: 1px solid #b0d1d4;
+    background-color: #dee9ea;
+    color: #d1f2f3;
+    font-size: 14px;
+}
+
+.signup-form input:focus {
+    outline: none;
+    border-color: #1f80e0;
+    box-shadow: 0 0 5px rgba(31, 128, 224, 0.5); /* Add focus glow */
+}
+
+/* Create Account Button */
+.create-account {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #0a838c;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 15px;
+    transition: background-color 0.3s ease; /* Add smooth hover transition */
+}
+
+.create-account:hover {
+    background-color: #0b625f;
+}
+
+/* Google Login Button */
+.google-login {
+    width: 100%;
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2ca3e2;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.google-login img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.google-login:hover {
+    background-color: #1b85c1;
+}
+
+/* Login Link */
+.login-link {
+    margin-top: 1rem;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login-link span {
+    color: #1f80e0;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login-link span:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .signup-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .logo {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .logo-image {
+        width: 200px; 
+    }
+
+    .signup-form {
+        width: 100%;
+        padding: 1.5rem;
+        margin: 0;
+    }
+
+    .signup-form h2 {
+        font-size: 1.25rem;
+    }
+}

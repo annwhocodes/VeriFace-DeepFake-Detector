@@ -1,0 +1,82 @@
+/* Profile Page Container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #25cbc3; /* Same background as login page */
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+  }
+  
+  /* Profile Card */
+  .profile-card {
+    background-color: #a5e3e4; /* Same color as login card */
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Profile Header */
+  .profile-header {
+    margin-bottom: 2rem;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #083d42;
+  }
+  
+  .profile-card p {
+    font-size: 1.2rem;
+    color: #083d42;
+  }
+  
+  /* Profile Actions */
+  .profile-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  /* Buttons */
+  .edit-button, .logout-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button {
+    background-color: #0a838c; /* Same as continue button color */
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #0b625f;
+  }
+  
+  .logout-button {
+    background-color: #ef4444; /* Same as logout button color */
+    color: white;
+  }
+  
+  .logout-button:hover {
+    background-color: #dc2626;
+  }
+  

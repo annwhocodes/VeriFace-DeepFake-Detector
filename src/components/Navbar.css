@@ -1,0 +1,78 @@
+/* General Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #17929d;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo Section */
+.navbar-logo .logo-text {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-logo .logo-text:hover {
+  color: #4CAF50; /* Highlight color */
+}
+
+/* Link Section */
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-links a {
+  color: white; /* Default link color */
+  text-decoration: none;
+  font-size: 16px;
+  padding: 15px 15px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.navbar-links a:hover {
+  background-color: #4CAF50; /* Background on hover */
+  color: white; /* Maintain white text */
+}
+
+.navbar-links a.active {
+  color: black; /* Active link color */
+  font-weight: bold;
+  background-color: white; /* Highlight background for active link */
+  border-radius: 4px;
+}
+
+/* Logout Button */
+.logout-button {
+  background-color: #bc2222d8;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #6d0e0e;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-links {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+  }
+}

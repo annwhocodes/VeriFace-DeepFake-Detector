@@ -1,0 +1,36 @@
+.results-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+  }
+  
+  .donut-chart {
+    flex: 1;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: 40px;
+    text-align: center;
+  }
+  
+  .donut-chart h2 {
+    margin-bottom: 20px;
+  }
+  
+  .parameters {
+    flex: 1;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .parameter-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .parameter-label {
+    font-weight: bold;
+  }
