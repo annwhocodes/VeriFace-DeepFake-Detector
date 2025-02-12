@@ -11,11 +11,11 @@ const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false); // Set up authentication state
 
   const handleLogin = () => {
-    setIsAuthenticated(true); // Set the user as logged in
+    setIsAuthenticated(true); 
   };
 
   const handleLogout = () => {
-    setIsAuthenticated(false); // Log the user out
+    setIsAuthenticated(false); 
   };
 
   return (
